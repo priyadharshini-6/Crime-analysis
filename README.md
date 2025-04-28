@@ -1,5 +1,6 @@
 # Crime-analysis
 
+Crime-Analysis
 Overview
 This project focuses on analyzing crime data to uncover patterns, trends, and correlations. The goal is to better understand crime distribution across different areas and time periods, identify hotspots, and possibly predict future crime rates using machine learning techniques.
 
@@ -34,41 +35,39 @@ Jupyter Notebook / Google Colab – Development environment
 Dataset
 Source: [Insert dataset source here, e.g., Kaggle, city open data portal]
 
-Fields include:
+Fields include:Crime Type,Date,Location,Latitude / Longitude,Description :Arrested (Yes/No)
 
-Crime Type
 
-Date
-
-Location
-
-Latitude / Longitude
-
-Description
-
-Arrested (Yes/No)
 
 Project Structure
+kotlin
+
 crime-analysis/
 ├── data/
 │   └── crime_data.csv
 ├── notebooks/
 │   └── crime_analysis.ipynb
 ├── visuals/
-│   └── crime_trends.png
+│   ├── crime_trends.png
 │   └── crime_heatmap.html
 ├── models/
 │   └── crime_prediction_model.pkl
 ├── README.md
 └── requirements.txt
 
-How to Run:
-git clone https://github.com/yourusername/crime-analysis.git
-1.path
-cd crime-analysis
-2.Install dependencies:
-pip install -r requirements.txt
 
+How to Run
+Clone the repository:
+
+git clone https://github.com/yourusername/crime-analysis.git
+Navigate into the project directory:
+
+
+cd crime-analysis
+Install the dependencies:
+
+
+pip install -r requirements.txt
 Key Insights
 Most crimes occur between [specific times].
 
@@ -82,7 +81,6 @@ Deploying a web app for real-time crime prediction.
 Incorporating live crime feeds for dynamic analysis.
 
 Using deep learning for more accurate pattern detection.
-
 
 License
 This project is licensed under the MIT License.
